@@ -1,3 +1,7 @@
+************************************************************************************************
+** Update/hacked Version to avoid Jigsaw (and all other) error messaages crashing the server.  *
+************************************************************************************************
+
 # MCBEPlay
 Server GUI &amp; Management for Minecraft Bedrock
 
