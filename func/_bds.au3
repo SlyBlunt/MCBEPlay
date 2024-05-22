@@ -259,7 +259,7 @@ Func _BDSCheckError($data)
    If $pos > 1 Then
 	  _log("Error Found in BDS Output: [" & $data & "]", $function_name, True)
 	  _BDSErrorFile("ERROR")
-	  _BDSExit()
+	  ; _BDSExit() ;No need to reboot on the Jigsaw error
    EndIf
 EndFunc
 
