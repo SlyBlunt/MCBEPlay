@@ -259,7 +259,8 @@ Func _BDSCheckError($data)
    If $pos > 1 Then
 	  _log("Error Found in BDS Output: [" & $data & "]", $function_name, True)
 	  _BDSErrorFile("ERROR")
-	  ;_BDSExit() ;Commented Out to avoid mojang-introduced "Jigsaw" error crashing the server
+	  ;_BDSExit() 
+          ;Commented Out to avoid mojang-introduced "Jigsaw" error crashing the server
    EndIf
 EndFunc
 
