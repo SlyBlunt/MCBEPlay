@@ -1,3 +1,28 @@
+************************************************************************************************************
+ Temporary Update/hacked Version to avoid "Jigsaw" (and all other) error messaages crashing the server.  
+ All Credit goes to original developer, all I have done here is comment out one line in his code.        
+************************************************************************************************************
+ I have not provided the EXEs - but you can compile them yourself by:                                    
+ 1) Clone this repository, saving all files to any folder on your local PC                               
+ 2) Download "AutoIt" development kit from here (min version 3.3.14.5):                                  
+    https://www.autoitscript.com/site/autoit/downloads/                                                  
+ 3) Use "Compile Script to Exe .." (32 or 64 bit depending on your platform)                             
+    First compile mcbeplay.au3 into mcbeplay.exe (using custom icon included in repo)                    
+    Then compile bds.au3 into bds.exe (using custom icon included in repo)                               
+ 4) Copy the 2 new files to your server location (backup your exiting exes) and start server             
+
+ One thing to note - my virus scanner didn't like the compiled exe's which freaked me out at             
+ first, but then after some online investigation it appears AutoIt's compiled exe's can                  
+ have signatures in it which can trigger a 'Generic' virus alert.                                        
+
+ I checked the au3 files thoroughly that are included in the build and there was nothing                 
+ nefarious in there, and AutoIt has been an industry standard for many years now so I trust              
+ the dev kit.                                                                                            
+
+ In the end I had to add an exception for those files in my scanner software to let me run.              
+
+************************************************************************************************************
+
 # MCBEPlay
 Server GUI &amp; Management for Minecraft Bedrock
 
